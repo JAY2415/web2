@@ -5,7 +5,7 @@ function Front() {
   return (
   <div>
     <header className="App-header">
-    <img src={logo} className="App-logo" width="40px" alt="logo" />
+    <img src={logo} className="App-logo" alt="logo" />
     <h1>Fun Facts About React</h1>
     <ul>
       <li>Was first released in 2013</li>
