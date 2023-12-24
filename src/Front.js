@@ -1,9 +1,11 @@
 import logo from './logo.svg'
+import './App.css';
 
 function Front() {
   return (
   <div>
-    <img src={logo} width="40px" />
+    <header className="App-header">
+    <img src={logo} className="App-logo" width="40px" alt="logo" />
     <h1>Fun Facts About React</h1>
     <ul>
       <li>Was first released in 2013</li>
@@ -12,6 +14,7 @@ function Front() {
       <li>Is maintained by Facebook</li>
       <li>Powers thousands of enterprise apps, including movile</li>
     </ul>
+    </header>
   </div>
 );
 }
