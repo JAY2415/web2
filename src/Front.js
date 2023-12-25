@@ -6,7 +6,7 @@ function Front() {
   <div>
     <header className="App-header">
     <img src={logo} className="App-logo" alt="logo" />
-    <h1>Fun Facts About React</h1>
+    <h1>React</h1>
     <ul>
       <li>Was first released in 2013</li>
       <li>Was originally created by Jordan Walke</li>
